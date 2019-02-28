@@ -1,2 +1,0 @@
-# lotServer
-lotServer bin
