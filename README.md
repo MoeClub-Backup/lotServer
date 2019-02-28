@@ -7,3 +7,7 @@
 ## 新版
 版本号大于 3.11.20.10 ,需要用新版算号器许可证.      
 [新版许可证生成地址](https://moeclub.org)    
+
+## [更新记录](http://download.appexnetworks.com.cn/releaseNotes/)     
+
+  
