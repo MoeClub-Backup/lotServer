@@ -83,7 +83,7 @@ function Install()
   AcceBin="acce-"$KNV"-["$KNA"_"$KNN"_"$KNK"]"
   mkdir -p "${AcceTmp}/bin/"
   mkdir -p "${AcceTmp}/etc/"
-  wget --no-check-certificate -q -O "${AcceTmp}/bin/${AcceBin}" "https://github.com/MoeClub/lotServer/raw/master/${MyKernel}"
+  wget --no-check-certificate -qO "${AcceTmp}/bin/${AcceBin}" "https://github.com/MoeClub/lotServer/raw/master/${MyKernel}"
   [ ! -f "${AcceTmp}/bin/${AcceBin}" ] && Uninstall "Download Error! Not Found ${AcceBin}. "
   Welcome;
   wget --no-check-certificate -qO "/tmp/lotServer.tar" "https://github.com/MoeClub/lotServer/raw/master/lotServer.tar"
