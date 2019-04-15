@@ -1,8 +1,8 @@
 # lotServer
 
 
-## 安装
-### 一键安装
+## 用户安装
+### 常规自动安装
 ```
 bash <(wget https://github.com/MoeClub/lotServer/raw/master/Install.sh) install
 ```
